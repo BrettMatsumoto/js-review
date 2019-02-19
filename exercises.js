@@ -10,15 +10,20 @@ Now, unleash your coding beast!
 Declare variables named yourName, neighborName, teacherName.  Console log each variable.*/
 
 var yourName = 'Brett Matsumoto';
-console.log('Question 1: My Name is ' + yourName);
+console.log('Question 1: My Name is ' + yourName + ".");
 var neighborName = 'Mr.Rogers';
-console.log('Question 1: My neightbors name is ' + neighborName);
+console.log('Question 1: My neightbors name is ' + neighborName + ".");
 var teacherName = 'Vic';
-console.log('Question 1: My Teachers name is ' + teacherName);
+console.log('Question 1: My Teachers name is ' + teacherName + ".");
 
 /*2. Variable with a Number as their value.
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear. Please assign the actual data for each variable.
 Console log each variable.*/
+
+var numberOfFloorsBurjKhalifa = 163;
+console.log('Question 2: The number of floors in the Burj Khalifa is ' + numberOfFloorsBurjKhalifa + ".");
+var tokyoOlympicsYear = 2020;
+console.log('Question 2: The year the Olympics will be held in Tokyo is ' + tokyoOlympicsYear + ".");
 
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
