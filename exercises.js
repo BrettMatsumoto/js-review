@@ -77,7 +77,7 @@ Add another popular tourist attraction to the india variable from position 1 of 
 (hint, it is not the push() method). Console log the variable.*/
 
 india.unshift('Red Fort');
-console.log('Question 8: india new first attraction: ' + india + '.');
+console.log('Question 8: add new first element to india array: ' + india + '.');
 
 /*9. Removing the last element from an array.
 Using the same india variable, remove the last element from the array. Console log the variable. */
