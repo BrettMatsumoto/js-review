@@ -49,7 +49,7 @@ Console log the variable
 Console log the value at index 1.
 Console log the value at index 3.*/
 
-var japanPrefectures = ['Hokkadio','Tohoku', 'Kanto', 'Chubu', 'Kansai'];
+var japanPrefectures = ['Hokkadio', 'Tohoku', 'Kanto', 'Chubu', 'Kansai'];
 console.log('Question 5: japanPrefectures array: ' + japanPrefectures + '.');
 console.log('Question 5: Index 1 of japanPrefectures array: ' + japanPrefectures[1] + '.');
 console.log('Question 5: Index 3 of japanPrefectures array: ' + japanPrefectures[3] + '.');
@@ -60,7 +60,7 @@ Console log the variable
 Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
 
-var planets = ['Murcury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune','Pluto'];
+var planets = ['Murcury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto'];
 console.log('Question 6: planets array: ' + planets + '.');
 console.log('Question 6: Find "Earth": ' + planets[2]);
 console.log('Question 6: find "Uranus": ' + planets[6]);
@@ -69,9 +69,15 @@ console.log('Question 6: find "Uranus": ' + planets[6]);
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
 
+var india = ['Taj Mahal', 'Amber Palace', 'Hawa Mahal'];
+console.log('Question 7: india array: ' + india + '.');
+
 /*8. Adding new elements to an array.
 Add another popular tourist attraction to the india variable from position 1 of the index.
 (hint, it is not the push() method). Console log the variable.*/
+
+india.unshift('Red Fort');
+console.log('Question 8: india new first attraction: ' + india + '.');
 
 /*9. Removing the last element from an array.
 Using the same india variable, remove the last element from the array. Console log the variable. */
