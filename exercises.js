@@ -102,6 +102,16 @@ b) a string and a number "three" and 3
 
 console log each variable*/
 
+var car1 = 'Racecar';
+var car2 = 'racecar';
+var res1 = car1 === car2;
+console.log('Question 11(a): "Racecar" === "racecar" is ' + res1 + '.');
+
+var num1 = 'three';
+var num2 = 3;
+var res2 = num1 === num2;
+console.log('Question 11(b): "three" === "3" is ' + res2 + '.');
+
 /*12.  Declare a literal object named "hotel" with properties and values set to:
 
     name    => "Hilton"
