@@ -175,6 +175,21 @@ console.log(bigBox);
 
 console log the object */ 
 
+var colorMeBadd = 
+{
+   iro: 
+   {
+      akai: 'red',
+      aoi: 'blue',
+      midori: 'green',
+      shiroi: 'white',
+      pinku: 'pink',
+      murasaki: 'purple',
+   },
+   isJapanese: true,
+}
+console.log(colorMeBadd);
+
 /*16. As the general manager for the DevLeague Prep Beer Pong Team, your job is to select the starting players from the roster array. Create two variables, Ateam and Bteam and assign each an empty array. You will then assigned players that have an even number index position to the Ateam and odd number index position to the Bteam. Let the games begin! Console log the results.*/
 
 var roster = ["Alex", "Laura", "Sami", "Jasmine", "Adam", "Dakota", "Jonathon", "Luther", "Kevin", "Vic"];
