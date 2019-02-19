@@ -60,6 +60,11 @@ Console log the variable
 Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
 
+var planets = ['Murcury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune','Pluto'];
+console.log('Question 6: planets array: ' + planets + '.');
+console.log('Question 6: Find "Earth": ' + planets[2]);
+console.log('Question 6: find "Uranus": ' + planets[6]);
+
 /*7. Variables with Array for its value.
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
