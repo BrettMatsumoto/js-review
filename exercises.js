@@ -28,6 +28,13 @@ console.log('Question 2: The year the Olympics will be held in Tokyo is ' + toky
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
 
+var lovesPrepClass = true;
+console.log('Question 3: Boolean value for lovesPrepClass is: ' + lovesPrepClass + ".");
+var eatsDonuts = false;
+console.log('Question 3: Boolean value for eatsDonuts is: ' + eatsDonuts + ".");
+var drinksGin = true;
+console.log('Question 3: Boolean value for drinksGin is: ' + drinksGin + ".");
+
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
 
