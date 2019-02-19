@@ -38,6 +38,11 @@ console.log('Question 3: Boolean value for drinksGin is: ' + drinksGin + ".");
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
 
+var completedCodingChallenge = null;
+console.log('Question 4: Set completedCodingChallenge to ' + completedCodingChallenge + '.');
+var traveledToSpace = null;
+console.log('Question 4: Set traveledToSpace to ' + traveledToSpace + '.');
+
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of any 5 prefectures in Japan.
 Console log the variable 
