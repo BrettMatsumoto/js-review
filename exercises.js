@@ -90,6 +90,11 @@ Removethe first two elements in the snacks array and return a new array.
 Console log the new variable. */
 
 var snacks = ["peanut butter cup oreo", "birthday cake oreo", "banana split oreo", "watermelon oreo", "cookie dough oreo", "creamsicle oreo"];
+console.log('Question 10: snacks array: ' + snacks + '.');
+snacks.shift();
+snacks.shift();
+snackLess = snacks;
+console.log('Question 10: new snacks array: ' + snackLess + '.');
 
 /*11. Declare two variables with names of your choosing and use the triple comparison operator (===) to compare:
 a) two strings "Racecar" and "racecar"
